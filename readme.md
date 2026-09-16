@@ -67,6 +67,11 @@ Launch the development server using Uvicorn:
 ```Bash
 uvicorn main:app --reload
 ```
+
+run for local
+```Bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
 Note: Replace main with your entry script name if it differs (e.g., app.py).
 
 The server will start at: 📍 http://127.0.0.1:8000
