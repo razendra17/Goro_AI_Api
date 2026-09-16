@@ -8,10 +8,9 @@ from fastapi.middleware.cors import CORSMiddleware
 latest_emotion = ""
 app = FastAPI()
 origins = [
-    "http://127.0.0.1:8001",
-    "http://localhost:8001",
-    "http://192.168.1.14:8001",
-    
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+    "http://192.168.1.8:8000",
 ]
 
 
